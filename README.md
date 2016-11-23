@@ -1,37 +1,37 @@
 # amWiki 轻文库
 
 ![amWiki logo](https://amwiki.xf09.net/docs/assets/logo.png)  
-amWiki 是一款基于 Javascript 脚本语言、依赖 Atom 编辑器、使用 Markdown 标记语法的轻量级开源 wiki 文库系统。  
-amWiki 致力于让大家可以更简单、更便捷的建设个人和团队文库系统！  
+amWiki A lightweighted document system developed by Javascript, running as a plugin inside Atom editor, allowing you write your documents with pure Markdown script in simple text.
+amWiki Dedicated to make your doucments easier and agile, a perfect documenting tool for both personal and team.
 
-**传送门:**  
-[amWiki 项目 Github 托管地址](https://github.com/TevinLi/amWiki "amWiki项目Github托管地址")  
+**Reference:**  
+[amWiki Github Repo](https://github.com/TevinLi/amWiki "amWik Github Repo")  
 [![amWiki github star](https://amwiki.xf09.net/githubicons/Tevinli/amWiki/star) ![amWiki github fork](https://amwiki.xf09.net/githubicons/Tevinli/amWiki/fork)](https://github.com/TevinLi/amWiki)
 
-### amWiki优势
-- 文档系统采用 markdown 语法
-- 不用数据库，文档使用 `.md` 格式保存本地文件
-- 无需服务端开发，只需支持 http 静态访问网页空间
-- 一键创建新的文库
-- 自动更新文库导航目录
-- 支持截图直接粘帖为本地 png 并插入当前 markdown
-- 文档web端自适应显示，适合所有平台
-- 支持接口文档自动抓取内容生成简单的ajax测试
-- ... (更多内容期待您的发现)
+### amWiki Pros
+- Write you document in pure text markdown.
+- No database，All documents are in .md format.
+- No server side development，only need static http access
+- One click to generate a demo library
+- Auto generate and update document index
+- Support screenshot saved as png and insert to current editing document.
+- Adaptive design for html style, seamlessly running on all platforms.
+- Support API document remote fetching, and generating simple ajax test cases.
+- ... (More need you to discover)
 
-### web端效果演示
-一键创建新文库将自动生成一套Web端html页面，默认生成效果一览：[https://tevinli.github.io/amWiki/](https://tevinli.github.io/amWiki/index.html)
+### web demo templated
+One click to generate a template document website：[https://tevinli.github.io/amWiki/](https://tevinli.github.io/amWiki/index.html)
 
-## 如何开始
+## How to start
 
-1. 下载Github开源文本编辑器 [Atom 官网](https://atom.io/ "Atom官网")，并安装
+1. Download and install Atom editor [Atom Site](https://atom.io/ "Atom Site")
 
-2. 安装Atom插件amWiki，并重启Atom
-    - Atom菜单，File -> Setting -> Install -> 搜索`amWiki`
-    - 或者，运行cmd：`apm install amWiki`
-    - 或者，从Github的 [amWiki版本发布](https://github.com/TevinLi/amWiki/releases) 下载zip，解压到`C:\Users\Administrator\.atom\packages`，并将文件夹名`amWiki-master`改为`amWiki`
+2. Install amWiki as an Atom plugin, then **Restart** Atom
+    - Atom Menu，File -> Setting -> Install -> search `amWiki`
+    - Or，run cmd：`apm install amWiki`
+    - Or，go to Github Repo [amWiki Release](https://github.com/TevinLi/amWiki/releases) download as zip，extract to `C:\Users\Administrator\.atom\packages`，then rename folder name `amWiki-master`to `amWiki`
 
-3. (在本地服务器静态目录)创建一个文件夹
+3. Create a local folder for the new document library.
 
 4. 在Atom中 **添加项目文件夹**，并指向刚创建的文件夹
 
